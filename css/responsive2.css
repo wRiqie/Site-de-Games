@@ -1,0 +1,40 @@
+@media (max-width: 995px){
+  
+
+    nav{
+        display: block;
+    }
+
+    .label{
+        display: flex;
+    }
+
+    .bars3{
+        display: flex;
+    }
+
+    
+    .letras{
+        display: none;
+    }
+
+    body header .cabecalho-fora .logo img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 1401px){
+    .botao{
+        display: none;
+    }
+
+    .botao1{
+        display: block;
+    }
+}
+
+@media(max-height:760px){
+    .footer{
+        display: none;
+    }
+}

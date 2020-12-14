@@ -1,0 +1,99 @@
+
+.borda{
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 2px;
+}
+
+.text{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bloco{
+    cursor: pointer;
+}
+
+.bloco img{
+    transition: all 0.5s;
+}
+
+.bloco:hover img{
+    transform: scale(1.2);
+}
+
+.bloco:hover .text{
+    color: #34CC8E;
+    transition: 0.8s;
+    font-size: 17px;
+}
+
+.meio{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.title{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    max-width: 25ch;
+}
+
+.preco{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b6849;
+    font-weight: 600;
+}
+
+.game img{
+    transition: all 0.3s;
+    
+}
+
+.game:hover img{
+    transform: scale(1.07);
+    
+}
+
+.game .title{
+    transition: all 0.3s;
+} 
+
+.game:hover .title{
+    color:  #1b6849;
+}
+
+.game .preco{
+    transition: all 0.3s;
+}
+
+.game:hover .preco{
+    color:rgb(44, 44, 44);
+}
+
+.mycontainer:hover span a{
+    color: #1b6849;
+}
+
+.mycontainer:hover img{
+    transform: scale(1.4);
+}
+
+.campo .escrever button:hover{
+    transform: scale(1.1);
+    background-color: #209c69;
+}
+
+.removerlink{
+    text-decoration: none;
+    color: black;
+}
+
+.clique{
+    cursor: pointer;
+}

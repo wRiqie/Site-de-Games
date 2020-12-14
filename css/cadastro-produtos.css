@@ -1,0 +1,214 @@
+a:link{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: block;
+
+    padding: 20px 5px;
+    color: white;
+
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    
+}
+
+a:hover{
+    background-color:#34CC8E;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 350px;
+    height: 100vh;
+    left: -350px;
+    transition: 0.3s;
+
+    position: absolute;
+    z-index: 1;
+}
+
+/*Faz com que um evento aconteça no NAV, quando o checkbox for ativado*/
+input[type="checkbox"]:checked ~ nav{
+    transform: translateX(350px);
+}
+
+ul{
+    list-style: none;
+
+    position: absolute;
+    top: 90px;
+
+    width: 100%;
+
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    padding: 15px;
+
+    position: absolute;
+    z-index: 10;
+}
+
+label img{
+    width: 60px;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+.letras{
+    display: flex;
+}
+/*HEADER*/
+
+section{
+    padding: 120px 0 0 0;
+}
+
+.container{
+    margin-top: 50px;
+
+    border: 1px solid rgb(185, 185, 185);
+
+    padding: 100px;
+}
+
+.nome span{
+    display: block;
+    
+    font-size: 18px;
+    font-family: 'Arial';
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.nome input{
+    outline: none;
+    width: 100%;
+    height: 40px;
+
+    font-family: 'Arial';
+    font-size: 18px;
+
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.preco span{
+    display: block;
+    
+    font-size: 18px;
+    font-family: 'Arial';
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.preco input{
+    outline: none;
+    width: 100%;
+    height: 40px;
+
+    font-family: 'Arial';
+    font-size: 18px;    
+
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.desc span{
+    display: block;
+    
+    font-size: 18px;
+    font-family: 'Arial';
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.desc textarea{
+    width: 100%;
+    height: 110%;
+    font-family: 'Arial';
+    font-size: 18px;
+
+    outline: none;
+
+    border-radius: 2px;
+
+    border: 1px solid rgb(185, 185, 185);
+
+    resize: none;
+}
+
+.inserir .imagem{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.inserir img{
+    width: 35%;
+
+    margin-top: 20px;
+}
+
+.inserir button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    border: 2px solid #34CC8E;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+
+    border-radius: 2px;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: #34CC8E;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.inserir button:hover{
+    transform: scale(1.02);
+}
+
+.botao-confirm{
+    border: 0;
+    background-color: #34CC8E;
+    width: 100px;
+    height: 40px;
+
+    border-radius: 2px;
+
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.botao-confirm:hover{
+    background-color: #2aa373;
+    transform: scale(1.07);
+}
